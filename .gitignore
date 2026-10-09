@@ -25,6 +25,15 @@ ENV/
 *.sqlite3
 *.log
 
+# Environment & Secrets
+.env
+.env.*
+*.env
+*.pem
+*.key
+credentials.json
+secrets.json
+
 # Node & Vite
 node_modules/
 frontend/dist/
